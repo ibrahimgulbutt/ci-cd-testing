@@ -22,7 +22,7 @@ def add():
 def reverse():
     data = request.get_json()
     text = data.get("text", "")
-    return jsonify({"resultt": text[::-1]})
+    return jsonify({"result": text[::-1]})
 
 # API endpoint: Get a random motivational quote
 import random

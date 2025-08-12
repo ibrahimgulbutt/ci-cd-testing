@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "minikube-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus3.actions.githubusercontent.com/wWzhoJXxjmBVCpoVdeZ1PMdTeJOdJEg4WIfpuytnPpqZGDRRal/",
+  "gitHubUrl": "https://github.com/ibrahimgulbutt/ci-cd-testing",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

@@ -8,7 +8,6 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-
     steps:
       - name: ⏬ Checkout code
         uses: actions/checkout@v3
@@ -21,3 +20,10 @@ jobs:
 
       - name: 📤 Push to DockerHub
         run: docker push ibrahimgulbutt/ci-cd-testing:latest
+
+  deploy:
+    needs: build-and-push
+    runs-on: self-hosted
+    steps:
+      - name: 🚀 Deploy to Minikube
+        run: kubectl set image deployment/flask-app flask-app=ibrahimgulbutt/ci-cd-testing:latest

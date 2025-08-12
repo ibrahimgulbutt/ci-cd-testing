@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "ibrahimgulbutt/ci-cd-testing",
+  "pipelineDirectory": "ci-cd-testing",
+  "workspaceDirectory": "ci-cd-testing\\ci-cd-testing",
+  "repositories": {
+    "ibrahimgulbutt/ci-cd-testing": {
+      "repositoryPath": "ci-cd-testing\\ci-cd-testing",
+      "lastRunOn": "08/12/2025 12:47:04 +05:00"
+    }
+  },
+  "lastRunOn": "08/12/2025 12:50:12 +05:00"
+}

@@ -25,5 +25,13 @@ jobs:
     needs: build-and-push
     runs-on: self-hosted
     steps:
+      - name: ⏬ Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🚀 Apply deployment and service YAML
+        run: |
+          kubectl apply -f deployment.yaml
+          kubectl apply -f service.yaml
+
       - name: 🚀 Deploy to Minikube
         run: kubectl set image deployment/flask-app flask-container=ibrahimgulbutt/ci-cd-testing:latest

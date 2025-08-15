@@ -1,0 +1,20 @@
+[Fri 08/15/2025 18:30:43.23] --------whoami-------- 
+desktop-qvet8c3\lenovo
+[Fri 08/15/2025 18:30:43.27] --------whoami-------- 
+[Fri 08/15/2025 18:30:43.28] Waiting for Runner.Listener.exe (1316) to complete 
+Runner.Listener.exe           1316 Console                    1     86,800 K
+[Fri 08/15/2025 18:30:43.50] Process 1316 still running, check again after 1 second. 
+[Fri 08/15/2025 18:30:44.72] Process 1316 finished running 
+[Fri 08/15/2025 18:30:44.72] Sleep 1 more second to make sure process exited 
+[Fri 08/15/2025 18:30:45.76] Re-organize folders 
+[Fri 08/15/2025 18:30:45.80] move "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\bin" "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\bin.2.327.1" 
+        1 dir(s) moved.
+[Fri 08/15/2025 18:30:45.86] move "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\externals" "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\externals.2.327.1" 
+        1 dir(s) moved.
+[Fri 08/15/2025 18:30:45.89] Create junction bin folder 
+Junction created for C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\bin <<===>> C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\bin.2.328.0
+[Fri 08/15/2025 18:30:45.93] Create junction externals folder 
+Junction created for C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\externals <<===>> C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\externals.2.328.0
+[Fri 08/15/2025 18:30:45.98] Update succeed 
+[Fri 08/15/2025 18:30:46.01] update.finished file creation succeed 
+[Fri 08/15/2025 18:30:46.03] Rename "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\_diag\SelfUpdate-20250815-133043.log" to be "C:\Users\LENOVO\Desktop\Internship\Task 6\actions-runner\_diag\SelfUpdate-20250815-133043.log.succeed" 
